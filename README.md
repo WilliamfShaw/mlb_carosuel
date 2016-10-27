@@ -18,8 +18,8 @@ Build a horizontal carosuel list displaying a thumbnail and metadata for games o
 
 Built using CSS, HTML and JS
 
-##TO RUN
+###TO RUN LOCALLY
 
-`git clone`
-`cd mlb_carosuel`
-`open index.html`
+- `git clone`
+- `cd mlb_carosuel`
+- `open index.html`
