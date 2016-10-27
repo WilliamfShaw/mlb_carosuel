@@ -30,10 +30,10 @@ window.onload = () => {
       if(e.target.classList.contains('prev')) {
         parent.removeChild(first);
         parent.appendChild(first);
-      } else if(e.target.classList.contains('next')) {
-        parent.removeChild(last);
-        parent.insertBefore(last, first);
       }
+      parent.removeChild(last);
+      parent.insertBefore(last, first);
+
     })
   })
 }
