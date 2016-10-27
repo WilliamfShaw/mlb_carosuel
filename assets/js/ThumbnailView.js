@@ -1,6 +1,6 @@
-class GameView {
-  constructor(game, el) {
-    this.game = game;
+class ThumbnailView {
+  constructor(data, el) {
+    this.data = data;
     this.el = el;
     this.render();
   }
@@ -8,11 +8,11 @@ class GameView {
   render() {
     const thumbnailContainer = document.createElement('div');
     thumbnailContainer.className = 'carousel__thumbnails__content'
-    const headline = this.createTextNode(this.game.game_media.media[1].headline);
+    const headline = this.createTextNode(this.data.game_media.media[1].headline);
     thumbnailContainer.appendChild(headline);
-    const img = this.createImageNode(this.game.video_thumbnails.thumbnail[0].content);
+    const img = this.createImageNode(this.data.video_thumbnails.thumbnail[0].content);
     thumbnailContainer.appendChild(img);
-    const venue = this.createTextNode(this.game.venue);
+    const venue = this.createTextNode(this.data.venue);
     thumbnailContainer.appendChild(venue);
     this.el.appendChild(thumbnailContainer)
   }

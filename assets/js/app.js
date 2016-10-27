@@ -7,7 +7,7 @@ window.onload = () => {
       .then((response) => {
         response.json().then((json) => {
           json.data.games.game.forEach((game) => {
-            new GameView(game, document.querySelector('.carousel__thumbnails'));
+            new ThumbnailView(game, document.querySelector('.carousel__thumbnails'));
           });
         });
       })
@@ -26,7 +26,6 @@ window.onload = () => {
 
   document.querySelectorAll('.button').forEach((button) => {
     button.addEventListener('click', (e) => {
-      console.log('clicked')
       const { elements, first, last, parent } = getElements();
       if(e.target.classList.contains('prev')) {
         parent.removeChild(first);
