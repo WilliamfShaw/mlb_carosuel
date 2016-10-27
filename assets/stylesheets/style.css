@@ -24,6 +24,7 @@ body * {
   .button {
     position: absolute;
     top: 40%;
+    z-index: 100;
   }
 
     .prev {
@@ -105,3 +106,20 @@ body * {
       .carousel__thumbnails__content:hover .carousel__thumbnails__content__metainfo:first-child {
         top: -1.5rem;
       }
+
+
+@media (max-device-width : 667px) {
+  .carousel__thumbnails {
+    width: 3000%;
+  }
+
+  .carousel__thumbnails__content {
+    width: .5%;
+    height: 100%;
+    margin: 0 .5rem;
+  }
+
+  .carousel__thumbnails__content:nth-child(5) {
+   margin-right: 6rem;
+  }
+}
