@@ -8,6 +8,7 @@ body * {
 }
 
 .carousel {
+  background-color: blue;
   position: relative;
   top: 10rem;
   left: 10%;
@@ -15,3 +16,24 @@ body * {
   height: 15rem;
   overflow: hidden;
 }
+
+.button {
+  position: absolute;
+  top: 40%;
+}
+
+  .prev {
+    left: 0;
+    background: url('../images/MLBHP_mediawall_icons.png') no-repeat 50% 50%;
+    background-position: -6px -73px;
+    width: 29px;
+    height: 56px;
+  }
+
+  .next {
+    right: 0;
+    background: url('../images/MLBHP_mediawall_icons.png') no-repeat 50% 50%;
+    background-position: -45px -72px;
+    width: 28px;
+    height: 57px;
+  }
