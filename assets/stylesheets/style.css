@@ -1,4 +1,17 @@
-body {
+/*body {
   background: url('../images/background.jpg') no-repeat 50% 50% fixed;
   background-size: cover;
+}*/
+
+body * {
+  box-sizing: border-box;
+}
+
+.carousel {
+  position: relative;
+  top: 10rem;
+  left: 10%;
+  width: 80%;
+  height: 15rem;
+  overflow: hidden;
 }
