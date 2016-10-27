@@ -1,1 +1,4 @@
-style.css
+body {
+  background: url('../images/background.jpg') no-repeat 50% 50% fixed;
+  background-size: cover;
+}
