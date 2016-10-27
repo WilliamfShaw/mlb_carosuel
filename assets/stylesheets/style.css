@@ -44,6 +44,16 @@ body * {
     left: 2rem;
     background-color: red;
     height: 50%;
-    width: 300%;
+    width: 1000%;
   }
 
+    .carousel__thumbnails__content {
+      position:relative;
+      background-color: green;
+      width: 1.2%;
+      height: 100%;
+      display: inline-block;
+      float: left;
+      z-index:0;
+      margin: 0 .2rem;
+    }
