@@ -7,7 +7,7 @@ window.onload = () => {
       .then((response) => {
         response.json().then((json) => {
           json.data.games.game.forEach((game) => {
-            new ThumbnailView(game, document.querySelector('.carousel__thumbnails'));
+            new CarosuelThumbnailView(game, document.querySelector('.carousel__thumbnails'));
           });
         });
       })

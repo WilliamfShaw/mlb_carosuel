@@ -1,4 +1,4 @@
-class ThumbnailView {
+class CarosuelThumbnailView {
   constructor(data, el) {
     this.data = data;
     this.el = el;
