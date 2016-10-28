@@ -10,9 +10,9 @@
 
 ![SS](http://s22.postimg.org/tprpku1n5/Screen_Shot_2016_10_27_at_7_02_37_PM.png)
 
-###TASK & APPROACH
+###TASK & NEXT STEPS
 
-Build a horizontal carousel list displaying a thumbnail and metadata for games on a given day. I tried to build in a way that would allow for reusability.
+Build a horizontal carousel list displaying a thumbnail and metadata for games on a given day.
 
 Current Next Steps:
 
