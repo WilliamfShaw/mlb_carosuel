@@ -10,9 +10,15 @@
 
 ![SS](http://s22.postimg.org/tprpku1n5/Screen_Shot_2016_10_27_at_7_02_37_PM.png)
 
-###TASK
+###TASK & APPROACH
 
-Build a horizontal carousel list displaying a thumbnail and metadata for games on a given day.
+Build a horizontal carousel list displaying a thumbnail and metadata for games on a given day. I tried to build in a way that would allow for reusability.
+
+Current Next Steps:
+
+- Implement test suite
+- Have the main thumbnail images slide appropriatly when the user clicks the prev or next button
+- add responsive for web and more mobile scenarios
 
 ###TECHNOLOGIES
 
