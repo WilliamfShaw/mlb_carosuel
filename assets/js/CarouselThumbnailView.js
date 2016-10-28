@@ -40,13 +40,15 @@ class CarouselThumbnailView {
 
   addMouseEnterEvent(node) {
     node.addEventListener('mouseover', (e) => {
-      e.target.style.backgroudImage = `url(${this.large_thumbnail})`;
+      e.target.style.backgroundImage = `url(${this.large_thumbnail})`;
+      e.target.style.transition = 'background-image 0.2s ease-in-out'
     })
   }
 
   addMouseOutEvent(node) {
      node.addEventListener('mouseleave', (e) => {
-      e.target.style.backgroudImage = `url(${this.small_thumbnail})`;;
+      e.target.style.backgroundImage = `url(${this.small_thumbnail})`;;
+      e.target.style.transition = 'background-image 0.2s ease-in-out'
     })
   }
 }
